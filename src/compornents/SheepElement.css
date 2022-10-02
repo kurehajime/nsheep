@@ -1,0 +1,33 @@
+.sheep {
+    position: relative;
+    transform: scaleX(-1);
+    animation: buru ease-in-out 10s infinite;
+}
+
+.wall {
+    position: relative;
+    left: 0;
+    top: -33px;
+}
+
+@keyframes buru {
+    0% {
+        left: -55%
+    }
+
+    48% {
+        top: 0px;
+    }
+
+    50% {
+        top: -50px;
+    }
+
+    52% {
+        top: 0px;
+    }
+
+    100% {
+        left: 55%
+    }
+}
